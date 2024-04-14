@@ -1,8 +1,3 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/dark-theme",
-  output: "export", // <=== enables static exports
+module.exports = {
   reactStrictMode: true,
 };
-
-module.exports = nextConfig;
